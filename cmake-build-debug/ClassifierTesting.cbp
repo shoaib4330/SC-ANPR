@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ClassifierTesting"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\opencv-3.1.0\;CMake Files\..\..\opencv-3.1.0\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClassifierTesting">
+				<Option output="/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/ClassifierTesting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abdul/opencv-3.1.0/build"/>
+					<Add directory="/home/abdul/opencv-3.1.0/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/include/opencv"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/core/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/flann/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/imgproc/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/ml/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/photo/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/reg/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/surface_matching/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/video/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/dnn/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/fuzzy/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/imgcodecs/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/shape/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/videoio/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/highgui/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/objdetect/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/plot/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/superres/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/ts/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/xobjdetect/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/xphoto/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/bgsegm/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/bioinspired/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/dpm/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/face/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/features2d/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/line_descriptor/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/saliency/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/text/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/calib3d/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/ccalib/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/datasets/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/rgbd/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/stereo/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/structured_light/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/tracking/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/videostab/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/xfeatures2d/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/ximgproc/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/aruco/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/optflow/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClassifierTesting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClassifierTesting/fast">
+				<Option output="/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/ClassifierTesting" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abdul/opencv-3.1.0/build"/>
+					<Add directory="/home/abdul/opencv-3.1.0/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/include/opencv"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/core/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/flann/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/imgproc/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/ml/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/photo/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/reg/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/surface_matching/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/video/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/dnn/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/fuzzy/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/imgcodecs/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/shape/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/videoio/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/highgui/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/objdetect/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/plot/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/superres/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/ts/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/xobjdetect/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/xphoto/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/bgsegm/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/bioinspired/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/dpm/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/face/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/features2d/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/line_descriptor/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/saliency/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/text/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/calib3d/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/ccalib/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/datasets/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/rgbd/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/stereo/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/structured_light/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/tracking/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/videostab/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/xfeatures2d/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/ximgproc/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/aruco/include"/>
+					<Add directory="/home/abdul/opencv_contrib-3.1.0/modules/optflow/include"/>
+					<Add directory="/home/abdul/opencv-3.1.0/modules/stitching/include"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClassifierTesting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abdul/CLionProjects/ClassifierTesting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/Constants.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/Detector_ensemble.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/Detector_ensemble.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/TesseractCustom.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/TesseractCustom.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/entities/CamVidInterface.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/entities/CamVidInterface.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/entities/VidFrame.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/entities/VidFrame.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/entities/VideoInterface.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/factories/StreamInputFactory.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/factories/StreamInputFactory.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/detector/main.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/headers/DetectChars.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/headers/DetectPlates.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/headers/Main.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/headers/PossibleChar.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/headers/PossiblePlate.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/headers/Preprocess.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/headers/SegmenterInterface.h">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/srcFiles/DetectChars.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/srcFiles/DetectPlates.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/srcFiles/Main.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/srcFiles/PossibleChar.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/srcFiles/PossiblePlate.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/srcFiles/Preprocess.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/src/segmenter/srcFiles/SegmenterInterface.cpp">
+			<Option target="ClassifierTesting"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/../../opencv-3.1.0/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.1.0\build\"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/../../opencv-3.1.0/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.1.0\build\"/>
+		</Unit>
+		<Unit filename="/home/abdul/CLionProjects/ClassifierTesting/../../opencv-3.1.0/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-3.1.0\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
